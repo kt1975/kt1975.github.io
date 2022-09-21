@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery de fotos</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- nature -->
+    <section class="section nature">
+      <img
+        src="./img/img1.jfif"
+        title=" Mayan-1"
+        class="img"
+        data-id="1"
+        alt="nature-1"
+      />
+      <img
+        src="./img/img2.jfif"
+        title="Mayan-2"
+        class="img"
+        data-id="2"
+        alt="Mayan-2"
+      />
+      <img
+        src="./img/img3.jfif"
+        title="mayan-3"
+        class="img"
+        data-id="3"
+        alt="Mayan-3"
+      />
+    </section>
+    <!-- city -->
+    <section class="section city">
+      <img
+        src="./img/img4.jfif"
+        title="Mayan-1"
+        data-id="1"
+        class="img"
+        alt="Mayan-1"
+      />
+      <img
+        src="./img/img5.jfif"
+        title="city-2"
+        data-id="2"
+        class="img"
+        alt="Mayan-2"
+      />
+      <img
+        src="./img/img6.jfif"
+        title="mayan-3"
+        data-id="3"
+        class="img"
+        alt=" Mayan-3"
+      />
+      <img
+        src="./img/img7.jfif"
+        title="city-4"
+        data-id="4"
+        class="img"
+        alt="Mayan-4"
+      />
+      <img
+        src="./img/img8.jfif"
+        title=" Mayan-5"
+        data-id="5"
+        class="img"
+        alt="Mayan-5"
+      />
+    
+    </section>
+
+    <!-- modal -->
+    <div class="modal">
+      <button class="close-btn">
+        <i class="fas fa-times"></i>
+      </button>
+      <div class="modal-content">
+        <!-- prev next buttons -->
+        <button class="prev-btn">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <button class="next-btn">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+        <!-- content -->
+        <img src="./img/img1.jfif" class="main-img" alt="" />
+        <h3 class="image-name">image name</h3>
+        <div class="modal-images">
+          <img
+            src="./img/img2.jfif"
+            title="Mayan-1"
+            id="1"
+            class="modal-img"
+            alt=""
+          />
+          <img
+            src="./img/img3.jfif"
+            title="mayan-2"
+            id="2"
+            class="modal-img selected"
+            alt=""
+          />
+        
+
+        </div>
+      </div>
+    </div>
+    <script src="app-class.js"></script>
+  </body>
+</html>
